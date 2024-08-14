@@ -25,4 +25,5 @@ To view this page you may have context on right-click of the file for a `view in
 Fonts - Substituted `roca two` with `Poppins` and `FilsonPro` with `Raleway`
 
 Attempting to recreate the following:
-![Design](design\desktop.png)
+
+![Desktop Design](https://github.com/S-Maitland/gc_group/raw/main/design/desktop.png)

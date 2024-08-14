@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/5-ingredients.png",
+    "title": "5 Ingredients Mediterranean",
+    "author": "Jamie Oliver",
+    "current_price": "14.99",
+    "original_price": "12.99",
+    "rating": 5,
+    "rating_count": 567,
+    "quotes": [
+      {
+        "quote": "Delicious and easy-to-follow recipes for everyday cooking",
+        "source": "The Kitchen Times"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/blood-brothers.png",
+    "title": "Blood Brothers",
+    "author": "Willy Russell",
+    "current_price": "14.99",
+    "original_price": "12.99",
+    "rating": 4,
+    "rating_count": 29,
+    "quotes": [
+      {
+        "quote": "A gripping tale of loyalty and fate",
+        "source": "The Guardian"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/the-psychology-of-money.png",
+    "title": "Psychology Of Money",
+    "author": "Morgan Housel",
+    "current_price": "14.99",
+    "original_price": "12.99",
+    "rating": 3,
+    "rating_count": 109,
+    "quotes": [
+      {
+        "quote": "An eye-opening exploration of the complex relationship between psychology and finance",
+        "source": "Financial Times"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/the-green-roast-tine.png",
+    "title": "The Green Roast Tin",
+    "author": "Rukmini Iyer",
+    "current_price": "14.99",
+    "original_price": "12.99",
+    "rating": 2,
+    "rating_count": 23,
+    "quotes": [
+      {
+        "quote": "Delicious recipes that will satisfy your taste buds",
+        "source": "Food Network"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/the-boy-the-mole-the-fox-the-horse.png",
+    "title": "The Boy, The Mole, The Fox and The Horse",
+    "author": "Charlie Mackery",
+    "current_price": "14.99",
+    "original_price": "12.99",
+    "rating": 4,
+    "rating_count": 67,
+    "quotes": [
+      {
+        "quote": "A thought-provoking exploration of the human mind",
+        "source": "Psychology Today"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/murder-in-the-family.png",
+    "title": "Murder In The Family",
+    "author": "Cara Hunter",
+    "current_price": "14.99",
+    "original_price": "12.99",
+    "rating": 3,
+    "rating_count": 19,
+    "quotes": [
+      {
+        "quote": "A gripping and suspenseful thriller",
+        "source": "New York Times"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/the-man-who-died-twice.jpg",
+    "title": "The Man Who Died Twice",
+    "author": "Richard Osman",
+    "current_price": "3.80",
+    "original_price": "12.99",
+    "rating": 5,
+    "rating_count": 42,
+    "quotes": [
+      {
+        "quote": "A wonderful story . . . Such a beautiful book to get lost in",
+        "source": "Zoe Ball, BBC Radio 2"
+      }
+    ]
+  }
+]

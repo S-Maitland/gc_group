@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: solid 0.0625rem green; */
+}
+
+:root {
+  --var-author-colour: #f0f0f0;
+  --var-botw-background: #f8f6f4;
+  --var-button-primary: #ffd731;
+  --var-font-primary: #1d1d1d;
+  --var-font-secondary: #005748;
+  --var-font-tertiary: #5e5e5e;
+}
+
+body {
+  color: var(--var-font-primary);
+}
+
+#new-and-trending {
+  padding: 2rem;
+  text-decoration-color: var(--var-font-secondary);
+}
+
+#new-and-trending-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#new-and-trending-header h1 {
+  color: var(--var-font-secondary);
+  font-size: 2.0625rem;
+  font-weight: 700;
+  line-height: 2.475rem;
+}
+#new-and-trending-header a {
+  color: var(--var-font-primary);
+  font-size: 0.8125rem;
+  text-decoration-color: #005748;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0rem;
+}
+
+#book-of-the-week-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+#book-of-the-week-section h2 {
+  color: var(--var-font-secondary);
+  font-size: 28px;
+}
+
+#book-of-the-week-container {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1.25rem;
+  background-color: var(--var-botw-background);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#book-of-the-week-quote {
+  display: flex;
+  flex-direction: column;
+  color: var(--var-font-tertiary);
+  align-self: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 700;
+  width: 19.6875rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#book-of-the-week-quote quote {
+  text-align: center;
+  font-size: 19px;
+}
+
+#book-of-the-week-quote quote p {
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+#book-of-the-week-quote p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#book-of-the-week-spotlight {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: white;
+}
+
+#book-of-the-week-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#book-of-the-week-details h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+#book-of-the-week-details a {
+  text-decoration-color: var(--var-font-secondary);
+  font-size: 13px;
+}
+
+#book-of-the-week-details a:first-of-type {
+  color: var(--var-font-secondary);
+}
+
+#book-of-the-week-details a:last-child {
+  color: var(--var-font-primary);
+}
+
+#add-to-cart-button {
+  color: var(--var-font-secondary);
+  background-color: var(--var-button-primary);
+  border: none;
+  border-radius: 0.5rem;
+  height: 2.875rem;
+  padding: 0px 1.5rem;
+  width: 100%;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.book-of-the-week-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-of-the-week-price p:first-child {
+  font-weight: 700;
+  font-size: 19px;
+}
+.book-of-the-week-price p:last-child {
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--var-font-tertiary);
+}
+
+@media (max-width: 768px) {
+  #book-of-the-week-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 414px) {
+  #book-of-the-week-spotlight {
+    flex-direction: column;
+    align-items: center;
+  }
+}

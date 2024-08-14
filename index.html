@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section id="new-and-trending">
+        <section id="new-and-trending-header">
+          <h1>New & Trending</h1>
+          <a href="#" onclick="alert('View More hyperlink Clicked!')"
+            >View More</a
+          >
+        </section>
+        <section id="new-and-trending-carousel">
+          <!-- Carousel of books -->
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
+            quis perferendis, eius porro ab voluptates, nostrum, perspiciatis
+            ipsa labore hic quidem? Illum adipisci, magnam veritatis maiores
+            laborum consectetur sapiente! Dolorem?
+          </p>
+        </section>
+      </section>
+
+      <section id="book-of-the-week-section">
+        <!-- Book of the week -->
+        <h2>Book of the Week</h2>
+        <section id="book-of-the-week-container">
+          <section id="book-of-the-week-quote">
+            <img
+              src="assets\vector.png"
+              width="41.13px"
+              height="68.43px"
+              alt="Book of the week"
+            />
+            <quote id="book-of-the-week-review"> Quote </quote>
+            <p id="book-of-the-week-review-source">Author</p>
+          </section>
+          <section id="book-of-the-week-spotlight">
+            <img
+              id="book-of-the-week-cover"
+              src="/assets/images/the-man-who-died-twice.jpg"
+              alt="Book of the week cover"
+              width="200px"
+              height="308px"
+            />
+            <section id="book-of-the-week-details">
+              <h3 id="book-of-the-week-title"></h3>
+              <a
+                href="#"
+                onclick="alert('Book Of The Week hyperlink clicked!')"
+                id="book-of-the-week-author"
+              ></a>
+              <p id="book-of-the-week-star-rating"></p>
+
+              <span class="book-of-the-week-price">
+                <p id="book-of-the-week-current-price">£3.80</p>
+                <p id="book-of-the-week-original-price">New RRP £12.99</p>
+              </span>
+              <button
+                id="add-to-cart-button"
+                onclick="alert('Book added to Bag!')"
+              >
+                Add To Bag
+              </button>
+              <a href="#" onclick="alert('More Info Clicked!')">
+                More info
+                <img src="assets/Caret-Right.svg" alt="Caret Right" />
+              </a>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

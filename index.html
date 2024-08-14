@@ -11,26 +11,42 @@
   </head>
   <body>
     <main>
+      <!-- New & Trending Section -->
       <section id="new-and-trending">
         <section id="new-and-trending-header">
           <h1>New & Trending</h1>
-          <a href="#" onclick="alert('View More hyperlink Clicked!')"
+          <a
+            href="#"
+            onclick="alert('View More hyperlink Clicked!')"
+            aria-label="View More"
             >View More</a
           >
         </section>
         <section id="new-and-trending-carousel">
-          <!-- Carousel of books -->
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
-            quis perferendis, eius porro ab voluptates, nostrum, perspiciatis
-            ipsa labore hic quidem? Illum adipisci, magnam veritatis maiores
-            laborum consectetur sapiente! Dolorem?
-          </p>
+          <div class="carousel-container">
+            <div id="carousel" class="carousel"></div>
+            <button id="prev" class="carousel-btn prev">
+              <img
+                src="assets/Directional-Arrow.png"
+                width="24px"
+                height="24px"
+                alt="Scroll Left"
+              />
+            </button>
+            <button id="next" class="carousel-btn next">
+              <img
+                src="assets/Directional-Arrow.png"
+                width="24px"
+                height="24px"
+                alt="Scroll Right"
+              />
+            </button>
+          </div>
         </section>
       </section>
 
+      <!-- Book of the Week Section -->
       <section id="book-of-the-week-section">
-        <!-- Book of the week -->
         <h2>Book of the Week</h2>
         <section id="book-of-the-week-container">
           <section id="book-of-the-week-quote">
@@ -57,12 +73,13 @@
                 href="#"
                 onclick="alert('Book Of The Week hyperlink clicked!')"
                 id="book-of-the-week-author"
+                aria-label="Book Of The Week"
               ></a>
               <p id="book-of-the-week-star-rating"></p>
 
               <span class="book-of-the-week-price">
-                <p id="book-of-the-week-current-price">£3.80</p>
-                <p id="book-of-the-week-original-price">New RRP £12.99</p>
+                <p id="book-of-the-week-current-price"></p>
+                <p id="book-of-the-week-original-price"></p>
               </span>
               <button
                 id="add-to-cart-button"
@@ -70,7 +87,11 @@
               >
                 Add To Bag
               </button>
-              <a href="#" onclick="alert('More Info Clicked!')">
+              <a
+                href="#"
+                onclick="alert('More Info Clicked!')"
+                aria-label="More Info"
+              >
                 More info
                 <img src="assets/Caret-Right.svg" alt="Caret Right" />
               </a>

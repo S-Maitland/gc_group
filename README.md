@@ -15,4 +15,14 @@
 - How closely your submission follows the brief above
 - The responsiveness of your solution
 
-Once done, upload to github repo and share the link
+## Notes
+
+This site is responsive and dynamic, in order to achieve this `script.js` has functions that rference a source of truth for the books `books.json`
+The links and the buttons on page have been setup to retrun alerts to indicate their use, as there was no requirements for redirects or further functionality.
+
+To view this page you may have context on right-click of the file for a `view in browser` option, if using VSCODE then I suggest opening `index.html` and follownig this shortcut: `ALT + L, ALT + O` to open the page in your browser.
+
+Fonts - Substituted `roca two` with `Poppins` and `FilsonPro` with `Raleway`
+
+Attempting to recreate the following:
+![Design](design\desktop.png)
